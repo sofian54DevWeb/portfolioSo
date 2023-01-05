@@ -16,6 +16,15 @@
 	font-weight: 400;
 }
 
+
+/* Default CSS */
+:root {
+  --whiteblue: rgba(150, 233, 248, 0.5);
+  --darkblue: rgba(4, 40, 107, 0.5);
+}
+
+
+
 /* Default CSS */
 
 *{
@@ -96,6 +105,8 @@ p.success {
 p.danger {
 	color: red;
 }
+
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -252,7 +263,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/banner.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -261,7 +272,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, var(--whiteblue) -5.91%, var(--darkblue) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -318,6 +329,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
@@ -364,7 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #000000;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
